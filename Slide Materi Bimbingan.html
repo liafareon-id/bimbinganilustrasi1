@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masterclass Poster Edukasi</title>
+    <style>
+        body, html { margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; scroll-behavior: smooth; background-color: #f0f2f5; }
+        .slide { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 40px; box-sizing: border-box; border-bottom: 2px solid #ddd; }
+        .slide:nth-child(odd) { background-color: #ffffff; }
+        .slide:nth-child(even) { background-color: #e9ecef; }
+        h1 { color: #2c3e50; font-size: 3.5rem; margin-bottom: 10px; }
+        h2 { color: #34495e; font-size: 2.5rem; margin-bottom: 20px; }
+        p { font-size: 1.5rem; color: #555; max-width: 800px; line-height: 1.6; }
+        
+        /* Table Style */
+        table { border-collapse: collapse; width: 80%; max-width: 800px; margin: 20px auto; font-size: 1.5rem; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        th, td { border: 1px solid #ddd; padding: 15px; text-align: center; }
+        th { background-color: #2c3e50; color: white; }
+        .highlight { background-color: #d4edda; font-weight: bold; }
+
+        /* Triangle Style */
+        .triangle-container { position: relative; width: 300px; height: 260px; margin: 20px auto; }
+        .triangle-up { width: 0; height: 0; border-left: 150px solid transparent; border-right: 150px solid transparent; border-bottom: 260px solid #3498db; }
+        .label-top { position: absolute; top: 80px; left: 50%; transform: translateX(-50%); color: white; font-weight: bold; font-size: 1.2rem; }
+        .label-left { position: absolute; bottom: 20px; left: 30px; color: white; font-weight: bold; font-size: 1.2rem; }
+        .label-right { position: absolute; bottom: 20px; right: 30px; color: white; font-weight: bold; font-size: 1.2rem; }
+
+        /* Word Blocks Style */
+        .word-blocks { display: flex; align-items: center; justify-content: center; gap: 15px; margin: 30px 0; flex-wrap: wrap; }
+        .block { background-color: #2c3e50; color: white; padding: 20px 30px; border-radius: 8px; font-size: 2rem; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .block.accent { background-color: #e74c3c; }
+        .comma { font-size: 4rem; color: #2c3e50; font-weight: bold; margin: 0 10px; }
+
+        /* Checklist Style */
+        ul.checklist { text-align: left; font-size: 1.5rem; list-style: none; padding: 0; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        ul.checklist li { margin-bottom: 15px; display: flex; align-items: center; gap: 15px; }
+        ul.checklist li::before { content: '◻'; font-size: 2rem; color: #e74c3c; }
+        
+        .nav-hint { font-size: 1rem; color: #888; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <!-- Slide 1 -->
+    <div class="slide">
+        <h1>Masterclass & Bedah Karya Poster Edukasi</h1>
+        <p>Bimbingan Eksekusi Visual dan Filosofi Desain</p>
+        <p class="nav-hint">(Scroll ke bawah untuk slide berikutnya)</p>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide">
+        <h2>Rahasia Juri: Matriks Isu (MCDSS)</h2>
+        <table>
+            <tr>
+                <th>Isu / Tema Utama</th>
+                <th>Bobot Relevansi</th>
+                <th>Kekuatan Visual</th>
+                <th>Total Skor</th>
+            </tr>
+            <tr>
+                <td>Perundungan Siber</td>
+                <td>85</td>
+                <td>90</td>
+                <td>175</td>
+            </tr>
+            <tr>
+                <td>Kecanduan Gadget</td>
+                <td>70</td>
+                <td>75</td>
+                <td>145</td>
+            </tr>
+            <tr class="highlight">
+                <td>Pelecehan Digital</td>
+                <td>95</td>
+                <td>85</td>
+                <td>180 (Terpilih)</td>
+            </tr>
+        </table>
+        <p>Gunakan data untuk memilih isu yang paling nendang secara visual dan makna.</p>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide">
+        <h2>Keseimbangan 3 Pilar Poster Juara</h2>
+        <div class="triangle-container">
+            <div class="triangle-up"></div>
+            <div class="label-top">FILOSOFI</div>
+            <div class="label-left">FAKTA</div>
+            <div class="label-right">PERASAAN</div>
+        </div>
+        <p>Ketiganya harus sama kuat. Tambahkan fakta tingkat stres di dunia maya pada bagian deskripsi poster, jangan hanya visual sedih.</p>
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="slide">
+        <h2>Anatomi Judul Berima (Copywriting)</h2>
+        <div class="word-blocks">
+            <div class="block">Layar Boleh</div>
+            <div class="block accent">Maya</div>
+            <div class="comma">,</div>
+            <div class="block">Tapi Lukanya</div>
+            <div class="block accent">Nyata</div>
+        </div>
+        <p>Pola ideal: 2-3 kata sebelum dan sesudah koma. Berikan kontras warna pada kata kunci.</p>
+    </div>
+
+    <!-- Slide 5 -->
+    <div class="slide">
+        <h2>Hierarki & Keselarasan Warna</h2>
+        <div class="triangle-container" style="height: auto;">
+            <div style="width: 200px; background: #e74c3c; color: white; padding: 15px; margin: 0 auto 5px; font-weight: bold;">PRIMER (Dominan)</div>
+            <div style="width: 250px; background: #f39c12; color: white; padding: 15px; margin: 0 auto 5px; font-weight: bold;">SEKUNDER (Pendukung)</div>
+            <div style="width: 300px; background: #3498db; color: white; padding: 15px; margin: 0 auto; font-weight: bold;">AKSEN (Detail & Sorotan)</div>
+        </div>
+        <p>Sesuaikan tone baju karakter utama agar menyatu dengan palet dominan ungu/biru poster.</p>
+    </div>
+
+    <!-- Slide 6 -->
+    <div class="slide">
+        <h2>Pencahayaan Sebagai Focal Point</h2>
+        <div class="word-blocks">
+            <div class="block" style="background-color: #34495e;">Hapus Elemen Mati (Karakter Hadap Belakang)</div>
+            <div class="block" style="background-color: #34495e;">Pertegas Komposisi Segitiga Utama</div>
+        </div>
+        <p>Gunakan backlight dari belakang badan karakter utama (cewek menangis). Jangan tutupi emosinya dengan cahaya kacamata VR yang terlalu terang.</p>
+    </div>
+
+    <!-- Slide 7 -->
+    <div class="slide">
+        <h2>Checklist Tantangan (Sesi 2)</h2>
+        <ul class="checklist">
+            <li>Ubah tata letak agar ruang judul di atas menjadi lebih besar.</li>
+            <li>Persingkat subjudul maksimal 5 kata dalam 1 baris.</li>
+            <li>Hapus karakter kiri dan cowok yang membelakangi audiens.</li>
+            <li>Setoran 1: File Poster Final (Visual yang disempurnakan).</li>
+            <li>Setoran 2: Teks Deskripsi (Fakta & Filosofi untuk lembar kedua PDF).</li>
+        </ul>
+        <p>Siapkan semuanya untuk finalisasi di sesi bimbingan berikutnya!</p>
+    </div>
+
+</body>
+</html>
